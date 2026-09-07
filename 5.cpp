@@ -44,9 +44,15 @@ if (a>b)
 {
     cout << a/b << endl;
 }
-else
+else if ( b>a)
 {
     cout << b/a<< endl;
 }
+else if ( a = b )
+{
+    cout << " 1"<<endl;
+}
+else 
+cout <<" devison by zero is not posible "<<endl;
 
 }
